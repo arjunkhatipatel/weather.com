@@ -1,0 +1,53 @@
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 95%;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.temp {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.condition {
+    display: flex;
+    align-items: center;
+}
+
+.condition-text {
+    margin-right: 10px;
+}
+
+.condition-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d_item {
+    width: 150px;
+    min-width: 25%;
+    padding: 10px 10px 10px 0;
+}
+
+.d_item span {
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+.card {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 95%;
+    margin-bottom: 100px;
+}
+
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: left; */
+    padding: 10px;
+    /* text-align: center; */
+    border: 1px solid #ccc;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.day {
+    font-weight: bold;
+}
+
+.temp_day {
+    margin: 5px 0;
+}
+
+.condition {
+    font-weight: bold;
+}
